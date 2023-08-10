@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(music.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: 90%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+span{
+    color: aqua;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.btn{
+    background-color: aqua;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: #fff;
+    font-size: 75px;
+    margin: 20px 0 20px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfd;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.submission{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    width: 300px;
+    max-width: 100%;
+
+}
+.submission form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 15px 16px;
+    border: 2px solid aqua;
+    border-radius: 30px;
+}
+.submission form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    outline: none;
+    background-color: aqua;
+    color: #fff;
+    font-weight: bold;
+    top: 6px;
+    right: 6px;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+}
